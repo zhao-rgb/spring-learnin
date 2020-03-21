@@ -40,7 +40,6 @@ public class StudentConfig {
         return phoneHeight;
     }
 
-
     @Bean
     public Student student() {
         Student student = new Student();
