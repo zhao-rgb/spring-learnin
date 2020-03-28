@@ -25,13 +25,13 @@ public class ForumDaoImpl implements ForumDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-//    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
-//        this.setJdbcTemplate(jdbcTemplate);
-//    }
-//
-//    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
-//        this.jdbcTemplate = jdbcTemplate;
-//    }
+    public ForumDaoImpl(JdbcTemplate jdbcTemplate) {
+        this.setJdbcTemplate(jdbcTemplate);
+    }
+
+    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
 
     @Override
     public int insert(Forum forum) {
