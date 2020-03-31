@@ -147,6 +147,13 @@
             <version>2.25</version>
         </dependency>
 
+        <!-- annotation依赖，用于实用@Resource注解 -->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+        </dependency>
+
         <!--MyBatis依赖-->
         <dependency>
             <groupId>org.mybatis</groupId>

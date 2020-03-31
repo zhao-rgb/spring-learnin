@@ -17,7 +17,7 @@ public class ForumServiceTest {
 
     @Test
     public void insert() {
-        Forum forum = Forum.builder().forumName("测试论坛11").build();
+        Forum forum = Forum.builder().forumName("蜡笔小新").build();
         forumService.insert(forum);
     }
 
@@ -27,7 +27,7 @@ public class ForumServiceTest {
 
     @Test
     public void update() {
-        Forum forum = Forum.builder().forumId(3).forumName("新名词").build();
+        Forum forum = Forum.builder().forumId(3).forumName("蜡笔小新").build();
         forumService.update(forum);
     }
 
