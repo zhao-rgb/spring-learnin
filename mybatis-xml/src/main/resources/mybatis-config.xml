@@ -15,12 +15,12 @@
     <!--类型命名-->
     <typeAliases>
         <typeAlias type="com.soft1851.spring.mybatis.entity.Forum" alias="Forum"/>
-        <typeAlias type="com.soft1851.spring.mybatis.entity.Teacher" alias="Teacher"/>
-        <typeAlias type="com.soft1851.spring.mybatis.entity.Clazz" alias="Clazz"/>
+        <typeAlias type="Teacher" alias="Teacher"/>
+        <typeAlias type="Clazz" alias="Clazz"/>
 
-        <typeAlias type="com.soft1851.spring.mybatis.entity.Student" alias="Student"/>
-        <typeAlias type="com.soft1851.spring.mybatis.entity.Course" alias="Course"/>
-        <typeAlias type="com.soft1851.spring.mybatis.entity.CourseStudent" alias="CourseStudent"/>
+        <typeAlias type="Student" alias="Student"/>
+        <typeAlias type="Course" alias="Course"/>
+        <typeAlias type="CourseStudent" alias="CourseStudent"/>
     </typeAliases>
 
     <!--类型处理器-->

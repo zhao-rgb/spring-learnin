@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
         <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
                 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.soft1851.spring.mybatis.mapper.StudentMapper">
+<mapper namespace="StudentMapper">
 <!--    增加-->
     <insert id="insert" parameterType="Student" useGeneratedKeys="true" keyProperty="studentId">
         INSERT INTO t_student (clazz_id, student_name, hometown, birthday)
@@ -29,7 +29,7 @@
     </update>
 
 <!--    批量插-->
-    <insert id="batchInsert" parameterType="com.soft1851.spring.mybatis.entity.Student">
+    <insert id="batchInsert" parameterType="Student">
         INSERT INTO t_student VALUES
         <foreach collection='students' item='item' index='index' separator=','>
             (#{item.studentId}, #{item.clazzId},

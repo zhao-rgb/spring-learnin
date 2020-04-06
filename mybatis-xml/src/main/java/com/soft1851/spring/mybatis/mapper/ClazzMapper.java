@@ -1,7 +1,7 @@
 package com.soft1851.spring.mybatis.mapper;
 
-import com.soft1851.spring.mybatis.entity.Clazz;
 import com.soft1851.spring.mybatis.entity.ClazzVo;
+import com.soft1851.spring.mybatis.entity.Clazz;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

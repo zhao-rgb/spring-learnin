@@ -9,10 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="web" />
         <module name="ioc" />
+        <module name="orm" />
+        <module name="demo" />
+        <module name="jdbc-xml" />
+        <module name="mybatis-annotation" />
         <module name="aop" />
         <module name="web-annotation" />
         <module name="mybatis-xml" />
-        <module name="orm" />
+        <module name="hibernate-xml" />
       </profile>
     </annotationProcessing>
   </component>
