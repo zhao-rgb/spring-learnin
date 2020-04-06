@@ -27,9 +27,11 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <bean id="picture" class="com.soft1851.spring.jdbc.pic.PictureImpl"/>
     <!--以下配置目标对象和自定义增强类的bean-->
     <bean name="forumDao" class="com.soft1851.spring.jdbc.dao.impl.ForumDaoImpl"/>
     <bean name="myAdvice" class="com.soft1851.spring.jdbc.interceptor.MyAdvice"/>
+    <bean name="picAdvice" class="com.soft1851.spring.jdbc.interceptor.picAdvice"/>
     <!--开启使用注解并注入-->
     <aop:aspectj-autoproxy/>
 </beans>
