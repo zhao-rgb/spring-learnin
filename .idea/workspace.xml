@@ -2,18 +2,34 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="demo:war exploded" />
+      <artifact name="web-annotation:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a674cb-da00-4b36-9944-ffab74e27538" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jdbc-xml/src/main/java/com/soft1851/spring/jdbc/interceptor/picAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-xml/src/main/java/com/soft1851/spring/jdbc/pic/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-xml/src/main/java/com/soft1851/spring/jdbc/pic/PictureImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc-xml/src/main/java/com/soft1851/spring/jdbc/pic/PictureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc-xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-xml/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/jdbc/demo/mapper/CollectionMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/demo/mapper/CollectionMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/jdbc/demo/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/demo/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/jdbc/demo/service/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/soft1851/spring/demo/service/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/jdbc/ioc/entity/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/jdbc/ioc/entity/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-annotation/src/test/java/com/soft1851/spring/jdbc/mybatis/mapper/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-annotation/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-annotation/src/test/java/com/soft1851/spring/jdbc/mybatis/service/MusicServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-annotation/src/test/java/com/soft1851/spring/mybatis/service/MusicServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/jdbc/mybatis/mapper/ClazzMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/ClazzMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/jdbc/mybatis/mapper/CourseMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/CourseMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/jdbc/mybatis/mapper/StudentMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/StudentMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/jdbc/mybatis/mapper/TeacherMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/mapper/TeacherMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/jdbc/mybatis/service/ForumServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/service/ForumServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-annotation/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/jdbc/webAnnotation/dao/TopicDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/webAnnotation/dao/TopicDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/jdbc/webAnnotation/service/MusicServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/webAnnotation/service/MusicServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/jdbc/webAnnotation/service/TopicServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/webAnnotation/service/TopicServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/jdbc/webAnnotation/service/TravelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/webAnnotation/service/TravelServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/jdbc/web/dao/ForumDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/ForumDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/jdbc/web/dao/PostDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/PostDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/jdbc/web/service/ForumServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/ForumServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/jdbc/web/service/PostServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/PostServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +104,11 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.11" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1ZKg2yB3mEJDiEbp7f6xSqzPvd9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -108,7 +129,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc-xml/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,19 +180,11 @@
   </component>
   <component name="RestServicesNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-        </path>
-        <path>
-          <item name="Found 8 services " type="fcff1e1b:RestServiceStructure$RootNode" />
-          <item name="demo" type="c588b436:RestServiceStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.PictureTest">
+  <component name="RunManager" selected="JUnit.TopicDaoTest.selectAll">
     <configuration name="PictureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.jdbc.pic.PictureTest" />
       <module name="jdbc-xml" />
@@ -230,17 +243,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicServiceTest.bathInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopicDaoTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.webAnnotation.service.*" />
+          <option name="PATTERN" value="com.soft1851.spring.webAnnotation.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.webAnnotation.service" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.webAnnotation.service.MusicServiceTest" />
-      <option name="METHOD_NAME" value="bathInsert" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.webAnnotation.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.webAnnotation.dao.TopicDaoTest" />
+      <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -248,7 +261,7 @@
     </configuration>
     <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.30" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
-        <artifact name="demo:war exploded">
+        <artifact name="web-annotation:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -313,25 +326,25 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="demo:war exploded" />
+          <artifact name="web-annotation:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.TestHello" />
-      <item itemvalue="JUnit.MusicServiceTest.bathInsert" />
-      <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="Application.PictureTest" />
       <item itemvalue="JUnit.ForumDaoTest.insert" />
       <item itemvalue="JUnit.ForumDaoTest.delete" />
-      <item itemvalue="Application.PictureTest" />
+      <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="JUnit.TopicDaoTest.selectAll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TopicDaoTest.selectAll" />
         <item itemvalue="Application.PictureTest" />
         <item itemvalue="JUnit.ForumDaoTest.delete" />
         <item itemvalue="JUnit.ForumDaoTest.insert" />
         <item itemvalue="Application.TestHello" />
-        <item itemvalue="JUnit.MusicServiceTest.bathInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -357,6 +370,9 @@
         </serviceView>
       </list>
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -416,7 +432,14 @@
       <workItem from="1586048836066" duration="6571000" />
       <workItem from="1586073508492" duration="602000" />
       <workItem from="1586155682205" duration="3451000" />
-      <workItem from="1586160180076" duration="4795000" />
+      <workItem from="1586160180076" duration="8046000" />
+      <workItem from="1586177213016" duration="113000" />
+      <workItem from="1586222934947" duration="683000" />
+      <workItem from="1586239089314" duration="85000" />
+      <workItem from="1586393768662" duration="375000" />
+      <workItem from="1586414968623" duration="3675000" />
+      <workItem from="1586666779669" duration="519000" />
+      <workItem from="1586682335508" duration="379000" />
     </task>
     <task id="LOCAL-00001" summary="SpringMvc起步项目,post和forum查询接口。">
       <created>1584761804636</created>
@@ -460,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586161941987</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="aop图片作业">
+      <created>1586165127463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586165127463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +503,8 @@
     <MESSAGE value="mybatis-xml版模块" />
     <MESSAGE value="MyBatis系统化学习" />
     <MESSAGE value="aop模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop模块" />
+    <MESSAGE value="aop图片作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop图片作业" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Notifications" timestamp="1585483531601">
@@ -484,10 +515,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585920521220" />
-    <state x="140" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586006869991">
+    <state x="140" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586666855561">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="140" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586006869991" />
+    <state x="140" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586666855561" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1586162543581">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -512,62 +543,62 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="457" y="248" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1585966418579" />
-    <state x="333" y="4" key="CommitChangelistDialog2" timestamp="1586161930794">
+    <state x="333" y="4" key="CommitChangelistDialog2" timestamp="1586165126127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="333" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586161930794" />
+    <state x="333" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586165126127" />
     <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1585972759358">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585972759358" />
-    <state width="1493" height="283" key="GridCell.Tab.0.bottom" timestamp="1586164640647">
+    <state width="1492" height="172" key="GridCell.Tab.0.bottom" timestamp="1586682492675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586164640647" />
-    <state width="1493" height="283" key="GridCell.Tab.0.center" timestamp="1586164640647">
+    <state width="1492" height="172" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586682492675" />
+    <state width="1492" height="172" key="GridCell.Tab.0.center" timestamp="1586682492675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586164640647" />
-    <state width="1493" height="283" key="GridCell.Tab.0.left" timestamp="1586164640647">
+    <state width="1492" height="172" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586682492675" />
+    <state width="1492" height="172" key="GridCell.Tab.0.left" timestamp="1586682492675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586164640647" />
-    <state width="1493" height="283" key="GridCell.Tab.0.right" timestamp="1586164640647">
+    <state width="1492" height="172" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586682492675" />
+    <state width="1492" height="172" key="GridCell.Tab.0.right" timestamp="1586682492675">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="283" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586164640647" />
-    <state width="1228" height="231" key="GridCell.Tab.1.bottom" timestamp="1586056918366">
+    <state width="1492" height="172" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586682492675" />
+    <state width="1227" height="231" key="GridCell.Tab.1.bottom" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.1.center" timestamp="1586056918366">
+    <state width="1227" height="231" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
+    <state width="1227" height="231" key="GridCell.Tab.1.center" timestamp="1586441900612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.1.left" timestamp="1586056918366">
+    <state width="1227" height="231" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586441900612" />
+    <state width="1227" height="231" key="GridCell.Tab.1.left" timestamp="1586441900612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.1.right" timestamp="1586056918366">
+    <state width="1227" height="231" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586441900612" />
+    <state width="1227" height="231" key="GridCell.Tab.1.right" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.2.bottom" timestamp="1586056918367">
+    <state width="1227" height="231" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
+    <state width="1227" height="231" key="GridCell.Tab.2.bottom" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586056918367" />
-    <state width="1228" height="231" key="GridCell.Tab.2.center" timestamp="1586056918366">
+    <state width="1227" height="231" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
+    <state width="1227" height="231" key="GridCell.Tab.2.center" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.2.left" timestamp="1586056918366">
+    <state width="1227" height="231" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
+    <state width="1227" height="231" key="GridCell.Tab.2.left" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586056918366" />
-    <state width="1228" height="231" key="GridCell.Tab.2.right" timestamp="1586056918367">
+    <state width="1227" height="231" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
+    <state width="1227" height="231" key="GridCell.Tab.2.right" timestamp="1586441900613">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586056918367" />
+    <state width="1227" height="231" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1586441900613" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1585536093853">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -576,14 +607,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1585536256955" />
-    <state x="295" y="0" key="SettingsEditor" timestamp="1585974432229">
+    <state x="349" y="74" key="Registry" timestamp="1586223614673">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="295" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585974432229" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586161954396">
+    <state x="349" y="74" key="Registry/0.0.1536.824@0.0.1536.824" timestamp="1586223614673" />
+    <state x="295" y="0" key="SettingsEditor" timestamp="1586667300113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586161954396" />
+    <state x="295" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586667300113" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586165132018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586165132018" />
     <state x="949" y="193" key="chooseDestDirectoryDialog" timestamp="1585012397711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -612,9 +647,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585643173510" />
-    <state x="365" y="95" key="spring file set editor" timestamp="1585921301020">
+    <state x="365" y="95" key="spring file set editor" timestamp="1586165160930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="365" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1585921301020" />
+    <state x="365" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1586165160930" />
   </component>
 </project>
